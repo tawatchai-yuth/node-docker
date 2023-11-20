@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require('mongoose');
 const session = require("express-session");
 const redis = require("redis");
-const core = require("cors");
+const cors = require("cors");
 let RedisStore = require("connect-redis").default;
 
 const {

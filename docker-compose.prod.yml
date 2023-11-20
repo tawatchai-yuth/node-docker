@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   nginx:
-    image: nginx:stable-alpine
+    # image: nginx:stable-alpine
     ports: 
       - "80:80"
   node-app:
